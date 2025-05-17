@@ -30,14 +30,15 @@ Interactive graph: risk_network.html
 
 Risk report: risk_signals.json
 
-## Cloud Deployment - Foreseen Directions
-Smarter Implementation choices:
+## Cloud Deployment - Future Directions
 
-Neo4j Aura DB: Stores graph data persistently with relationship metadata.
+Smarter Implementation:
+
+Neo4j Aura DB: Stores graph data persistently with relationship metadata. 
+
+Deploy to Neo4j Aura Cloud for real-time graph queries.
 
 PyVis: Generates browser-based interactive visualizations.
-
-Future Integrations:
 
 Zapier MCP Automation:
 
@@ -45,19 +46,13 @@ Trigger pipeline via Slack/email alerts using Zapier webhooks.
 
 Auto-post risk signals to Confluence/Jira for audit trails.
 
-Neo4j Enhancements:
-
-Deploy to Neo4j Aura Cloud for real-time graph queries.
-
-Implement APOC procedures for temporal risk scoring.
-
-AWS Lambda:
+AWS Lambda: 
 
 Schedule daily RSS scraping with EventBridge.
 
 Use S3 for versioned article storage.
 
-## Enhancements - Foreseen Directions 
+## Enhancements - Future Directions 
 
 Added BERT-based NER for entity extraction (vs basic spaCy).
 
