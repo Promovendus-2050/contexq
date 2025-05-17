@@ -30,8 +30,8 @@ Interactive graph: risk_network.html
 
 Risk report: risk_signals.json
 
-## Cloud Deployment
-Current Implementation:
+## Cloud Deployment - Foreseen Directions
+Smarter Implementation choices:
 
 Neo4j Aura DB: Stores graph data persistently with relationship metadata.
 
@@ -57,7 +57,7 @@ Schedule daily RSS scraping with EventBridge.
 
 Use S3 for versioned article storage.
 
-## Enhancements
+## Enhancements - Foreseen Directions 
 
 Added BERT-based NER for entity extraction (vs basic spaCy).
 
