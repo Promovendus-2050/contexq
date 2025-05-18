@@ -52,7 +52,7 @@ Schedule daily RSS scraping with EventBridge.
 
 Use S3 for versioned article storage.
 
-## Enhancements included
+## Enhancements 
 
 Added BERT-based NER for entity extraction (vs basic spaCy).
 
